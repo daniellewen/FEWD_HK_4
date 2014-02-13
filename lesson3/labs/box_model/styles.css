@@ -1,0 +1,30 @@
+body {
+	background-color: white;
+}
+
+h1 {
+	background-color: green;
+	padding: 10px;
+	border: solid ; 
+	border-width: 10px; 
+	border-color: blue;
+	margin: 10px;
+}
+
+li {
+	background-color: green;
+	padding: 10px;
+	border:	solid 10px blue;
+	margin: 10px;
+	width: 200px;
+}
+
+h2 {
+	background-color: yellow;
+	padding: 10px;
+	border: dotted;
+	border-color:  #22fcff;
+	border-width: 10px;
+	margin: 10px;
+
+}

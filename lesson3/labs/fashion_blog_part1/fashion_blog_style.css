@@ -1,0 +1,119 @@
+body {
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	font-family: 'Rock Salt', cursive;
+}
+
+#container 
+
+h1 {
+	font-size: 50px ; 
+	color: red; 
+}
+
+h2 {
+	font-size: 20px;
+}
+
+nav {
+	color: grey; 
+	font-size: 20px ; }
+
+nav a {
+	color: grey;
+	margin: 0 16px; 
+	width: 102px;
+	line-height: 110px;
+	}
+
+h3 {font-size : 28px }
+
+article h2 { font-size : 28px ; }
+
+article { border-bottom: solid ; 
+		border-width: 2px ; 
+		border-color: grey;}
+
+p:first-letter {font-size: 70px; 
+				float: left;
+				width: 100px;
+}
+
+footer nav {font-size: 12px; 
+			color: red;
+			padding: 10px;
+			margin: 10px;
+}
+
+footer nav a {color: red;}
+
+footer {font-size: 10px; 
+		color: grey;
+		padding: 5px;
+		margin: 5
+	}
+
+
+
+#box {
+  width: 300px;
+  margin: 30px;
+  float: right;
+  border: solid 5px grey;
+  padding: 30px;
+  background-color: grey;
+}
+
+aside {
+
+float: right;
+
+ul { padding: 0px; }
+
+li { 
+  list-style: none;
+  float: left; 
+  padding: 4px; 8px;
+}
+
+li a {
+  padding: 0px 10px; 
+  text-decoration: none;
+  background: black;
+  color: red;
+}
+
+li a:hover { color: blue; }
+
+li a:active { color: yellow; }
+
+}
+
+#container { background-color: none; }
+
+.child {
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+
+#child-1 { background-color: none; }
+#child-2 { background-color: none; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+
+
+
+
+
+
+

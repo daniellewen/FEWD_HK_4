@@ -1,0 +1,132 @@
+header {
+	background-color: black
+}
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: black; 
+	border-bottom: solid, 5px, yellow;
+}
+
+h1 {
+	color: yellow;
+	font-size: 36px;
+
+}
+
+nav {color: white;
+	float: right;
+	margin: 10px;
+	font-size: 20px;
+}
+
+a:link { color: white; }
+a:visited { color: green; }
+a:focus { color: yellow; } 
+a:hover { color: blue; }
+a:active { color: pink; }
+
+#header-two {
+	background-color: lightgrey;
+}
+#header-two h2 {
+	font-size: 30px;	
+	font-color: black;
+	font-style: italic;
+	text-align: center;
+}
+
+.erase {
+	text-decoration: line-through;
+}
+
+.underscore {
+	border-bottom: solid 2px yellow ;
+}
+
+#image-container{
+	background-image: url("./images/coworking.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+}
+
+#image-container > div {
+	box-shadow: inset;
+	background-color: rgba(256, 256, 256, 0.7);
+	color: black;
+	font-size: 22px;
+	float: right;
+	margin: 10px;
+	width: 40%;
+}
+
+#image-container h2 {
+	margin: 5px;
+	padding: 5px;
+}
+#image-container > div > p {
+	padding: 8px;
+	font: 18px;
+	margin: 8px;
+}
+
+#image-container > div > button {
+	background-color: yellow;
+	color: black;
+	margin: 10px;
+	padding: 10px;
+}
+
+#bottom-container div {
+	background-color: white;
+	margin: 10px;
+	border-right: solid lightgrey 2px;
+	float: left;
+	width: 30%;
+}
+
+#bottom-container div:last-child {
+	border-right: 0px;
+}
+
+#bottom-container h3 { 
+	font-size: 22px; 
+	margin: 5px;
+	padding: 5px;
+}
+
+#bottom-container > div > p {
+	font-size: 18px;
+	margin: 10px;
+	padding: 5px;
+}
+
+#bottom-container > div > button {
+	background-color: lightgrey;
+	color: black;
+	padding: 5px;
+	margin: 10px;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-size: 14px;
+}
